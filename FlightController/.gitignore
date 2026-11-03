@@ -1,0 +1,6 @@
+# PC simulator build output and logs
+tools/pc_sim.exe
+*.pdb
+*.csv
+*.svg
+build/
