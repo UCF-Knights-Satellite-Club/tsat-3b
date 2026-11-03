@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "TSAT3B")(type "KiCad")(uri "${KIPRJMOD}/TSAT3B.kicad_sym")(options "")(descr "TSAT-3B reviewed regulator / MOSFET symbols")))

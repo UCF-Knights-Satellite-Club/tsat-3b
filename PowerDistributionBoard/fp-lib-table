@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TSAT3B") (type "KiCad") (uri "${KIPRJMOD}/TSAT3B.pretty") (options "") (descr ""))
+)
