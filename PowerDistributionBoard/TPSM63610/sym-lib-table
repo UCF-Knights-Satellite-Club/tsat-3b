@@ -1,0 +1,4 @@
+(sym_lib_table (lib (name "TSAT3B")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TSAT-3B-PDB.kicad_sym")(options "")(descr "TSAT-3B Rev L custom symbols"))(lib (name "Connector_Generic")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Connector_Generic.kicad_sym")(options "")(descr "Project snapshot of KiCad symbols"))
+(lib (name "Device")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Device.kicad_sym")(options "")(descr "Project snapshot of KiCad symbols"))
+(lib (name "Jumper")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Jumper.kicad_sym")(options "")(descr "Project snapshot of KiCad symbols"))
+(lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/Libraries/power.kicad_sym")(options "")(descr "Project snapshot of KiCad symbols")))

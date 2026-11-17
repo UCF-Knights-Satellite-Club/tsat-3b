@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "TSAT3B")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TSAT-3B-PDB.pretty")(options "")(descr "Bundled project footprints")))
