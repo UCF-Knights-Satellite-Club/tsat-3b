@@ -1,0 +1,16 @@
+# KiCad local, lock and backup files
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+.history/
+fp-info-cache
+_autosave-*
+\#auto_saved_files\#
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
