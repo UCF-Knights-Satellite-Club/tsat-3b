@@ -1,7 +1,7 @@
 # TSat-3B Power Distribution Board
 
 > [!WARNING]
-> **Superseded. Don't order this board.** It's kept for reference. The candidates now under review are
+> **Superseded. Don't order this board.** Lawson H.'s earlier design, kept for reference. The candidates now under review are
 > [`../1.5U-Rev1/`](../1.5U-Rev1/) and [`../TPSM63610/`](../TPSM63610/).
 
 <p align="center">
@@ -92,21 +92,6 @@ PowerDistributionBoard/
 Open `TSAT3B_PDB.kicad_pro` in **KiCad 10 or newer**; KiCad 9 can't read these files. The custom parts in
 `TSAT3B.pretty` (XT30, slide switch, inductors, SY8105) have no 3D models yet, so they show as bare pads in the renders.
 
-## Status: open items before fabrication
+## Review
 
-Rev B is still a **review draft**. These come from the review notes in the schematic:
-
-- [ ] Battery voltage/specification. The design assumes a supply that suits the 6 V buck and the switch's ≤12 V rating.
-- [ ] Cutter: resistance/current, pulse duration and Q1 thermal/SOA check.
-- [ ] Q3 and D1 current, inrush and dissipation, once battery and load data are known.
-- [ ] VSERVO at 5.96 V: confirm it suits the servos.
-- [ ] Verify land patterns: SY8105 (TSOT23-6), TDK inductor, XT30 (also polarity), and the slide switch contacts.
-- [ ] Confirm harness polarity on all 2-pin headers, and the servo pin order (1 VSERVO, 2 PWM, 3 GND).
-- [ ] Arming-link topology (VBUS → CUT_PWR): verify against the source design.
-- [ ] Cross-check with the flight code: the parafoil controller in [`../FlightController`](../FlightController) drives
-      **two** winch servos (left and right lines). This board has one servo header (J8) and one PWM line on J9.
-
-Check results (KiCad 10.0.7):
-- **DRC:** 0 unconnected pads and no clearance errors.
-- **Parity:** the 4 mounting holes exist only on the PCB.
-- **ERC:** 3 "power pin not driven" errors, which usually just need `PWR_FLAG` symbols on GND / VBAT_RAW / VBUS.
+Design review feedback and check results are tracked in [issue #10](https://github.com/UCF-Knights-Satellite-Club/tsat-3b/issues/10).

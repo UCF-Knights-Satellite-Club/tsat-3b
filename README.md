@@ -10,8 +10,8 @@ This repo holds the flight software and every circuit board.
 | [`FlightController/`](FlightController/) | ESP32 guided-parafoil flight software (Arduino sketch) plus a PC simulator | Guidance done and tested in simulation; sensor drivers still stubbed |
 | [`PowerDistributionBoard/1.5U-Rev1/`](PowerDistributionBoard/1.5U-Rev1/) | Power board candidate (Eric P.): carrier for plug-in buck modules | Under review |
 | [`PowerDistributionBoard/TPSM63610/`](PowerDistributionBoard/TPSM63610/) | Power board candidate (Lawson H.): on-board TPSM63610 regulators | Under review |
-| [`PowerDistributionBoard/RevB-SY8105/`](PowerDistributionBoard/RevB-SY8105/) | Earliest power board, on-board SY8105 regulators | Superseded |
-| [`MainBoard/`](MainBoard/) | Flight computer board (ESP32, IMU, GPS, barometer, LoRa) | Not uploaded yet |
+| [`PowerDistributionBoard/RevB-SY8105/`](PowerDistributionBoard/RevB-SY8105/) | Earlier power board (Lawson H.), on-board SY8105 regulators | Superseded |
+| [`MainBoard/`](MainBoard/) | Flight computer board (Pablo J.): ESP32, IMU, GPS, barometer, LoRa | Not uploaded yet |
 
 Two power board designs are being reviewed to pick the one going forward. See [`PowerDistributionBoard/README.md`](PowerDistributionBoard/README.md) for how they compare.
 
