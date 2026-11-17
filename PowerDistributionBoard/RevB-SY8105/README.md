@@ -1,5 +1,8 @@
 # TSat-3B Power Distribution Board
 
+> [!WARNING]
+> **Superseded by [`../1.5U-Rev1/`](../1.5U-Rev1/). Don't order this board.** It's kept for reference.
+
 <p align="center">
   <img src="docs/pcb_iso.png" alt="TSat-3B power distribution board, 3D render" width="720">
 </p>

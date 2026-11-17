@@ -1,0 +1,187 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+(symbol "MCP14A0052" (pin_names (offset 0.508)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 0 0) (effects (font (size 1.27 1.27)))) (property "Value" "MCP14A0052" (at 0 0 0) (effects (font (size 1.27 1.27)))) (symbol "MCP14A0052_0_1" (rectangle (start -8.89 10.16) (end 8.89 -10.16) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "MCP14A0052_1_1" (pin input line (at -12.7 0.0 0) (length 3.81) (name "IN" (effects (font (size 1.0795 1.0795)))) (number "3" (effects (font (size 0.8255 0.8255))))) (pin input line (at -12.7 -6.35 0) (length 3.81) (name "EN" (effects (font (size 1.0795 1.0795)))) (number "4" (effects (font (size 0.8255 0.8255))))) (pin output line (at 12.7 0.0 180) (length 3.81) (name "OUT" (effects (font (size 1.0795 1.0795)))) (number "6" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 0.0 13.97 270) (length 3.81) (name "VDD" (effects (font (size 1.0795 1.0795)))) (number "1" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at -3.81 -13.97 90) (length 3.81) (name "AGND" (effects (font (size 1.0795 1.0795)))) (number "2" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 3.81 -13.97 90) (length 3.81) (name "GND" (effects (font (size 1.0795 1.0795)))) (number "5" (effects (font (size 0.8255 0.8255)))))))
+(symbol "TPSM63610" (pin_names (offset 0.508)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 0 0) (effects (font (size 1.27 1.27)))) (property "Value" "TPSM63610" (at 0 0 0) (effects (font (size 1.27 1.27)))) (symbol "TPSM63610_0_1" (rectangle (start -15.24 27.94) (end 15.24 -27.94) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "TPSM63610_1_1" (pin power_in line (at -21.59 19.05 0) (length 3.81) (name "VIN" (effects (font (size 1.0795 1.0795)))) (number "1" (effects (font (size 0.8255 0.8255))))) (pin passive line (at -21.59 19.05 0) (length 3.81) hide (name "VIN" (effects (font (size 1.0795 1.0795)))) (number "18" (effects (font (size 0.8255 0.8255))))) (pin input line (at -21.59 11.43 0) (length 3.81) (name "EN" (effects (font (size 1.0795 1.0795)))) (number "17" (effects (font (size 0.8255 0.8255))))) (pin power_out line (at -21.59 -3.81 0) (length 3.81) (name "VCC" (effects (font (size 1.0795 1.0795)))) (number "6" (effects (font (size 0.8255 0.8255))))) (pin input line (at -21.59 -8.89 0) (length 3.81) (name "MODE" (effects (font (size 1.0795 1.0795)))) (number "15" (effects (font (size 0.8255 0.8255))))) (pin passive line (at -21.59 -16.51 0) (length 3.81) (name "RT" (effects (font (size 1.0795 1.0795)))) (number "12" (effects (font (size 0.8255 0.8255))))) (pin input line (at -21.59 -21.59 0) (length 3.81) (name "SPSP" (effects (font (size 1.0795 1.0795)))) (number "14" (effects (font (size 0.8255 0.8255))))) (pin no_connect line (at -21.59 -26.67 0) (length 3.81) (name "NC" (effects (font (size 1.0795 1.0795)))) (number "16" (effects (font (size 0.8255 0.8255))))) (pin power_out line (at 21.59 10.16 180) (length 3.81) (name "VOUT" (effects (font (size 1.0795 1.0795)))) (number "9" (effects (font (size 0.8255 0.8255))))) (pin passive line (at 21.59 10.16 180) (length 3.81) hide (name "VOUT" (effects (font (size 1.0795 1.0795)))) (number "10" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 21.59 2.54 180) (length 3.81) (name "VLDOIN" (effects (font (size 1.0795 1.0795)))) (number "5" (effects (font (size 0.8255 0.8255))))) (pin input line (at 21.59 -5.08 180) (length 3.81) (name "FB" (effects (font (size 1.0795 1.0795)))) (number "8" (effects (font (size 0.8255 0.8255))))) (pin passive line (at 21.59 22.86 180) (length 3.81) (name "RBOOT" (effects (font (size 1.0795 1.0795)))) (number "2" (effects (font (size 0.8255 0.8255))))) (pin passive line (at 21.59 27.94 180) (length 3.81) (name "CBOOT" (effects (font (size 1.0795 1.0795)))) (number "3" (effects (font (size 0.8255 0.8255))))) (pin no_connect line (at 21.59 17.78 180) (length 3.81) (name "SW" (effects (font (size 1.0795 1.0795)))) (number "4" (effects (font (size 0.8255 0.8255))))) (pin open_collector line (at 21.59 -16.51 180) (length 3.81) (name "PG" (effects (font (size 1.0795 1.0795)))) (number "13" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at -5.08 -33.02 90) (length 3.81) (name "AGND" (effects (font (size 1.0795 1.0795)))) (number "7" (effects (font (size 0.8255 0.8255))))) (pin passive line (at -5.08 -33.02 90) (length 3.81) hide (name "AGND" (effects (font (size 1.0795 1.0795)))) (number "11" (effects (font (size 0.8255 0.8255))))) (pin passive line (at -5.08 -33.02 90) (length 3.81) hide (name "AGND" (effects (font (size 1.0795 1.0795)))) (number "21" (effects (font (size 0.8255 0.8255))))) (pin passive line (at -5.08 -33.02 90) (length 3.81) hide (name "AGND" (effects (font (size 1.0795 1.0795)))) (number "22" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 5.08 -33.02 90) (length 3.81) (name "PGND" (effects (font (size 1.0795 1.0795)))) (number "19" (effects (font (size 0.8255 0.8255))))) (pin passive line (at 5.08 -33.02 90) (length 3.81) hide (name "PGND" (effects (font (size 1.0795 1.0795)))) (number "20" (effects (font (size 0.8255 0.8255)))))))
+(symbol "TLV1805" (pin_names (offset 0.508)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 0 0) (effects (font (size 1.27 1.27)))) (property "Value" "TLV1805" (at 0 0 0) (effects (font (size 1.27 1.27)))) (symbol "TLV1805_0_1" (rectangle (start -8.89 8.89) (end 8.89 -8.89) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "TLV1805_1_1" (pin input line (at -12.7 3.81 0) (length 3.81) (name "IN+" (effects (font (size 1.0795 1.0795)))) (number "4" (effects (font (size 0.8255 0.8255))))) (pin input line (at -12.7 -3.81 0) (length 3.81) (name "IN-" (effects (font (size 1.0795 1.0795)))) (number "3" (effects (font (size 0.8255 0.8255))))) (pin output line (at 12.7 0.0 180) (length 3.81) (name "OUT" (effects (font (size 1.0795 1.0795)))) (number "1" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 0.0 13.97 270) (length 3.81) (name "V+" (effects (font (size 1.0795 1.0795)))) (number "6" (effects (font (size 0.8255 0.8255))))) (pin power_in line (at 0.0 -13.97 90) (length 3.81) (name "V-" (effects (font (size 1.0795 1.0795)))) (number "2" (effects (font (size 0.8255 0.8255))))) (pin input line (at -12.7 -7.62 0) (length 3.81) (name "SHDN" (effects (font (size 1.0795 1.0795)))) (number "5" (effects (font (size 0.8255 0.8255)))))))
+(symbol "LM4040_DBZ" (pin_names (offset 0.508)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 0 0) (effects (font (size 1.27 1.27)))) (property "Value" "LM4040_DBZ" (at 0 0 0) (effects (font (size 1.27 1.27)))) (symbol "LM4040_DBZ_0_1" (rectangle (start -3.81 3.81) (end 3.81 -3.81) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "LM4040_DBZ_1_1" (pin passive line (at 0.0 8.89 270) (length 3.81) (name "K" (effects (font (size 1.0795 1.0795)))) (number "1" (effects (font (size 0.8255 0.8255))))) (pin passive line (at 0.0 -8.89 90) (length 3.81) (name "A" (effects (font (size 1.0795 1.0795)))) (number "2" (effects (font (size 0.8255 0.8255))))) (pin no_connect line (at 7.62 -3.81 180) (length 3.81) (name "NC" (effects (font (size 1.0795 1.0795)))) (number "3" (effects (font (size 0.8255 0.8255)))))))
+(symbol "FDS6679AZ" (pin_names (offset 0) hide) (in_bom yes) (on_board yes) (property "Reference" "Q" (at 5.08 1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "Q_PMOS_GDS" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 5.08 2.54 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_description" "P-MOSFET transistor, gate/drain/source" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "FDS6679AZ_0_1" (polyline (pts (xy 0.254 0) (xy -2.54 0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.254 1.905) (xy 0.254 -1.905)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -1.27) (xy 0.762 -2.286)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 0.508) (xy 0.762 -0.508)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 2.286) (xy 0.762 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 2.54 2.54) (xy 2.54 1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)) (stroke (width 0) (type default)) (fill (type outline))) (polyline (pts (xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)) (stroke (width 0) (type default)) (fill (type none))) (circle (center 1.651 0) (radius 2.794) (stroke (width 0.254) (type default)) (fill (type none))) (circle (center 2.54 -1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline))) (circle (center 2.54 1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline)))) (symbol "FDS6679AZ_1_1" (pin input line (at -5.08 0 0) (length 2.54) (name "G" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270) (length 2.54) (name "D" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) (name "S" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))))
+(symbol "FDS6679AZ_MIRROR" (pin_names (offset 0) hide) (in_bom yes) (on_board yes) (property "Reference" "Q" (at 5.08 1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "Q_PMOS_GDS" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 5.08 2.54 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_description" "P-MOSFET transistor, gate/drain/source" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "FDS6679AZ_MIRROR_0_1" (polyline (pts (xy 0.254 -0.0) (xy -2.54 -0.0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.254 -1.905) (xy 0.254 1.905)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 1.27) (xy 0.762 2.286)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -0.508) (xy 0.762 0.508)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -2.286) (xy 0.762 -1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 2.54 -2.54) (xy 2.54 -1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 2.54 2.54) (xy 2.54 -0.0) (xy 0.762 -0.0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 2.286 -0.0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 -0.0)) (stroke (width 0) (type default)) (fill (type outline))) (polyline (pts (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)) (stroke (width 0) (type default)) (fill (type none))) (circle (center 1.651 -0.0) (radius 2.794) (stroke (width 0.254) (type default)) (fill (type none))) (circle (center 2.54 1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline))) (circle (center 2.54 -1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline)))) (symbol "FDS6679AZ_MIRROR_1_1" (pin input line (at -5.08 -0.0 0.0) (length 2.54) (name "G" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90.0) (length 2.54) (name "D" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270.0) (length 2.54) (name "S" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90.0) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90.0) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90.0) (length 2.54) hide (name "D" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270.0) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270.0) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))))
+(symbol "BSC009NE2LS5" (pin_names (offset 0) hide) (in_bom yes) (on_board yes) (property "Reference" "Q" (at 5.08 1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "Q_NMOS_GDS" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 5.08 2.54 0) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_description" "N-MOSFET transistor, gate/drain/source" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "BSC009NE2LS5_0_1" (polyline (pts (xy 0.254 0) (xy -2.54 0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.254 1.905) (xy 0.254 -1.905)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -1.27) (xy 0.762 -2.286)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 0.508) (xy 0.762 -0.508)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 0.762 2.286) (xy 0.762 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy 2.54 2.54) (xy 2.54 1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type outline))) (polyline (pts (xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)) (stroke (width 0) (type default)) (fill (type none))) (circle (center 1.651 0) (radius 2.794) (stroke (width 0.254) (type default)) (fill (type none))) (circle (center 2.54 -1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline))) (circle (center 2.54 1.778) (radius 0.254) (stroke (width 0) (type default)) (fill (type outline)))) (symbol "BSC009NE2LS5_1_1" (pin input line (at -5.08 0 0) (length 2.54) (name "G" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 5.08 270) (length 2.54) (name "D" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) (name "S" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin passive line (at 2.54 -5.08 90) (length 2.54) hide (name "S" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))))
+(symbol "PWR263S35" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes) (property "Reference" "R" (at 2.032 0 90) (effects (font (size 1.27 1.27)))) (property "Value" "R" (at 0 0 90) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at -1.778 0 90) (effects (font (size 1.27 1.27)) hide)) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_keywords" "R res resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_description" "Resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (property "ki_fp_filters" "R_*" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) (symbol "PWR263S35_0_1" (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default)) (fill (type none)))) (symbol "PWR263S35_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin passive line (at 5.08 0 180) (length 2.54) (name "THERM" (effects (font (size 0.6 0.6)))) (number "3" (effects (font (size 0.6 0.6)))))))
+
+(symbol "Servo_3pin_GVD"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Servo_3pin_GVD"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Servo_3pin_GVD_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+)
