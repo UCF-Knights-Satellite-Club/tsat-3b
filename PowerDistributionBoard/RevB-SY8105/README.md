@@ -1,7 +1,8 @@
 # TSat-3B Power Distribution Board
 
 > [!WARNING]
-> **Superseded by [`../1.5U-Rev1/`](../1.5U-Rev1/). Don't order this board.** It's kept for reference.
+> **Superseded. Don't order this board.** It's kept for reference. The candidates now under review are
+> [`../1.5U-Rev1/`](../1.5U-Rev1/) and [`../TPSM63610/`](../TPSM63610/).
 
 <p align="center">
   <img src="docs/pcb_iso.png" alt="TSat-3B power distribution board, 3D render" width="720">

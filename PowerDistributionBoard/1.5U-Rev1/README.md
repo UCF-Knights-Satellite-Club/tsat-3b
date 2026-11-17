@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Current design</b> &nbsp;·&nbsp; 70 × 70 mm &nbsp;·&nbsp; 2-layer, 1.6 mm &nbsp;·&nbsp; KiCad 10
+  <b>Candidate, under review</b> &nbsp;·&nbsp; Designer: Eric P. &nbsp;·&nbsp; 70 × 70 mm &nbsp;·&nbsp; 2-layer, 1.6 mm &nbsp;·&nbsp; KiCad 10
 </p>
 
 | Top | Bottom |
@@ -52,6 +52,10 @@ J5 carries the servo data line in from the servo adapter to both servo headers.
 
 KiCad 10 on 2026-11-17: ERC 0 errors, DRC 0 violations, 0 unconnected items, schematic and PCB match. The Gerbers in
 `fabrication/` are the ones exported from this exact PCB file.
+
+## Review
+
+Design review feedback is tracked in [issue #7](https://github.com/UCF-Knights-Satellite-Club/tsat-3b/issues/7).
 
 ## Files
 
